@@ -1,20 +1,94 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Doaa Seif | Graphic Designer & Brand Strategist</title>
+    <meta name="title" content="Doaa Seif | Graphic Designer & Brand Strategist">
+    <meta name="description" content="Portfolio of Doaa Seif, a Graphic Designer specializing in visual identity, brand strategy, and creative direction. Helping brands stand out through design.">
+    <meta name="keywords" content="Graphic Design, Branding, Logo Design, Visual Identity, Brand Strategy, Art Direction, Doaa Seif, Riyadh Designer, تصميم جرافيك, هوية بصرية, شعارات">
+    <meta name="author" content="Doaa Seif">
+    <meta name="robots" content="index, follow">
 
-# Run and deploy your AI Studio app
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dezstudiollc.com/">
+    <meta property="og:title" content="Doaa Seif | Graphic Designer">
+    <meta property="og:description" content="Helping brands design and develop visual identities and brand strategies to stand out.">
+    <meta property="og:image" content="https://picsum.photos/1200/630?random=1">
 
-This contains everything you need to run your app locally.
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://dezstudiollc.com/">
+    <meta property="twitter:title" content="Doaa Seif | Graphic Designer">
+    <meta property="twitter:description" content="Helping brands design and develop visual identities and brand strategies to stand out.">
+    <meta property="twitter:image" content="https://picsum.photos/1200/630?random=1">
 
-View your app in AI Studio: https://ai.studio/apps/drive/1Z1qC-ErVdAZN5P69H6PrEcIpBz7sr_wj
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                pink: '#e82aa8',
+                purple: '#6204ed',
+              }
+            },
+            fontFamily: {
+              sans: ['"IBM Plex Sans"', 'sans-serif'],
+              arabic: ['"IBM Plex Sans Arabic"', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        margin: 0;
+        overflow-x: hidden;
+      }
+      /* Custom scrollbar for webkit */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      .dark ::-webkit-scrollbar-track {
+        background: #1f2937;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #e82aa8;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #6204ed;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.25",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.10.1",
+    "vite": "https://aistudiocdn.com/vite@^7.2.6",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1"
+  }
+}
+</script>
+</head>
+  <body class="bg-white dark:bg-gray-900 transition-colors duration-300">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
